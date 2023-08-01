@@ -5,13 +5,14 @@ body {
     color: white;
     min-height: 100vh;
     text-align: center;
-    font-family: Poppins;
+    /* font-family: Poppins; */
 }
 
 *{
  padding: 0px;
  margin: 0px;
  box-sizing: border-box; 
+ font-family: Poppins;
 }
 
 #logo {
@@ -40,6 +41,8 @@ p{
     display: inline-block;
     border-radius: 50%;
     color: black;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .scores{
@@ -67,3 +70,4 @@ section {
     padding: 0px;
     margin: 50px;
 }
+
